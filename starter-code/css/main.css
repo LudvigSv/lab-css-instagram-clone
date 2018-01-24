@@ -2,9 +2,92 @@
 Colors to use:
 dark blue: #06365f
 light blue: #1c5380
+
 */
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+h2 {
+  color: #1c5380;
+  margin-left: 20px;
+  line-height: 25px;
+}
+
+.test {
+  background-color: #47759d;
+  height: 288px;
+}
+.phones {
+  float: left;
+  position: relative;
+  top: 100px;
+  left: 19%;
+}
+
+.logo {
+  position: relative;
+  float: left;
+  top: 115px;
+  left: 25%;
+}
+
+.login {
+  position: relative;
+  float: left;
+  color: white;
+  top: 140px;
+  left: 491px;
+  border: 1px solid #1c5380;
+}
+
+.home {
+  position: relative;
+  top: 142px;
+  left: 420px;
+}
+
+.container {
+  background: url("../images/frame.png") no-repeat;
+  padding: 10px;
+  width: 490px;
+  height: 300px;
+  margin-left: 47%;
+  margin-top: -70px;
+  line-height: 21px;
+}
+
+.text-container {
+  padding: 5px 25px 10px 25px;
+}
+
+.phone-badges {
+  padding: 40px;
+  margin-left: -14px;
+}
+
+.iphone-badge {
+  margin-right: 8px;
+}
+
+.android-badge {
+  margin-left: 8px;
+}
+
+li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 10px;
+  font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #1c5380;
+  font-size: 12px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 40px;
+  left: 20%;
+  font-weight: bold;
 }
